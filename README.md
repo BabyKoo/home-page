@@ -22,3 +22,17 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Project Component
+### User View Layer
+```
+/src/views/
+```
+### Router Layer
+```
+/src/router
+```
+### API Layer
+```
+/src/api
+```
