@@ -1,4 +1,4 @@
-# clashsubs-web
+# Website Homepage
 
 ## Project setup
 ```
