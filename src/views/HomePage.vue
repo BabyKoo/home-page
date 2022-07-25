@@ -1,16 +1,16 @@
 <template>
-  <a-row>
-    <a-col :span="3">
-      <div>123</div>
-    </a-col>
-    <a-col :span="21">
-      <div>456</div>
-    </a-col>
-  </a-row>
+  <div>
+    <front-face></front-face>
+  </div>
 </template>
 
 <script>
-export default {};
+import FrontFace from "./components/FrontFace";
+export default {
+  components: {
+    FrontFace,
+  },
+};
 </script>
 
-<style></style>
+<style scoped></style>
