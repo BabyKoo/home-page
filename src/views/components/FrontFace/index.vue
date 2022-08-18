@@ -1,9 +1,16 @@
 <template>
   <div>
-    <a-row>
-      <div>
-        <a-col></a-col>
-      </div>
+    <a-row class="main-content">
+      <a-col
+        v-for="item in spanColumns"
+        :key="item.index"
+        :style="{
+          backgroundColor: item.backgroundColor,
+          color: '#fffc',
+          width: item.width,
+        }"
+        >{{ "T—" + item.index + " " + item.backgroundColor }}
+      </a-col>
     </a-row>
   </div>
 </template>
@@ -12,13 +19,20 @@
 import { columns } from "./dict";
 export default {
   name: "FrontFace",
-  created: {},
+  created() {
+    this.spanColumns = columns();
+  },
   data() {
     return {
-      columns: [],
+      spanColumns: [],
     };
   },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.main-content {
+  width: 100%;
+  height: 100vh;
+}
+</style>

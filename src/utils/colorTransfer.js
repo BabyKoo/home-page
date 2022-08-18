@@ -1,7 +1,7 @@
 /**
  * 
  * @param {string} rgb RGB color start with '#'
- * @returns {string}
+ * @returns {Array<Number>}
  */
 export let rgbToLab = (rgb) => {
   let R = rgb[1] + rgb[2];
@@ -65,5 +65,4 @@ export let rgbToLab = (rgb) => {
   // let labStr = "lab(" + lab_L + "% " + lab_A + " " + lab_B + ")"
 
   return [lab_L, lab_A, lab_B];
-  // return labStr
 };

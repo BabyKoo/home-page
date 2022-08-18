@@ -7,6 +7,7 @@
 <script>
 import FrontFace from "./components/FrontFace";
 export default {
+  created() {},
   components: {
     FrontFace,
   },

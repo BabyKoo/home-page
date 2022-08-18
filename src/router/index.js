@@ -6,6 +6,9 @@ const router = createRouter({
     {
       path: "/",
       component: HomePage,
+      meta: {
+        title: "首页"
+      },
     },
   ],
 });

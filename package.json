@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "ant-design-vue": "^3.3.0-beta.2",
+    "color-rna": "^1.0.1",
     "core-js": "^3.8.3",
+    "less": "^4.1.3",
+    "less-loader": "^11.0.0",
     "vue": "^3.2.13",
     "vue-router": "^4.1.1",
     "vuex": "^4.0.2"

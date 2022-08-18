@@ -7,11 +7,15 @@
 <script>
 export default {
   name: "App",
+  created() {
+    window.vue = this;
+  },
   components: {},
 };
 </script>
 
-<style>
+<style lang="less">
+@import './style/index.less';
 #view {
   font-family: "Jetbrains Mono", monospace, "Noto Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
