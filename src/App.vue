@@ -1,3 +1,6 @@
+<!--
+ - Root Component
+-->
 <template>
   <div id="view">
     <router-view></router-view>
@@ -15,12 +18,13 @@ export default {
 </script>
 
 <style lang="less">
-@import './style/index.less';
+@import "./style/index.less";
 #view {
   font-family: "Jetbrains Mono", monospace, "Noto Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #0f4c81;
+  background-color: @main-color;
+  color: @main-text-color;
   height: 100%;
 }
 </style>

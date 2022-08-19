@@ -23,11 +23,11 @@ export const columns = () => {
       width: "10%",
     });
   }
-  for (let i = 7; i < 10; i++) {
+  for (let i = 7; i < 8; i++) {
     colList.push({
       index: i,
       backgroundColor: mainColor.getHex(),
-      width: "10%",
+      width: "30%",
     });
   }
   return colList;
