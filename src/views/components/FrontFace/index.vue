@@ -43,6 +43,7 @@ export default {
 
 <style lang="less" scoped>
 @import "/src/style/index.less";
+// 渐进动画关键帧
 @keyframes widths {
   0% {
     width: 0px;
