@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --port 2001",
-    "build": "vue-cli-service build",
+    "build": "node node_modules/@vue/cli-service/bin/vue-cli-service.js build",
+    "build:dev": "node node_modules/@vue/cli-service/bin/vue-cli-service.js build --mode development",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

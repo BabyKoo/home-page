@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
-    <title>Loading</title>
+    <title>Loading...</title>
   </head>
   <body>
     <noscript>
@@ -20,8 +20,14 @@
   </body>
   <style>
     body {
-      background-color: #0f4c81;
+      background-color: #6d96d2;
       color: #fffc;
+      animation: colors 3s ease 0s infinite normal;
+    }
+    @keyframes colors {
+      50% {
+        background-color: #0f4c81;
+      }
     }
   </style>
 </html>

@@ -17,7 +17,7 @@
           :style="{ minHeight: '100vh' }"
         >
           <a-col flex="flex" span="24" class="menu-item"></a-col>
-          <a-col flex="flex" span="24" class="menu-item"></a-col>
+          <a-col flex="flex" span="24" class="menu-item">Coming soon...</a-col>
           <a-col flex="flex" span="24" class="menu-item"></a-col>
         </a-row>
       </a-col>
