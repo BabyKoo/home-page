@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# home-page
-A personal website home page.
-=======
 # Website Homepage
 
 ## Project setup
@@ -40,4 +36,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
 /src/api
 ```
->>>>>>> dev
