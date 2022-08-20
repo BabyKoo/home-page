@@ -43,12 +43,18 @@ export default {
 
 <style lang="less" scoped>
 @import "/src/style/index.less";
+@keyframes widths {
+  0% {
+    width: 0px;
+  }
+}
 .main-content {
   width: 100%;
   height: 100vh;
 }
 .column {
   color: @main-text-color;
+  animation: widths 0.6s ease-out 0s;
 }
 .column:hover {
   background-color: @main-color;
